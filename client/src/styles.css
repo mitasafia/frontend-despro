@@ -1,0 +1,17 @@
+:root { font-family: Inter, system-ui, Arial, sans-serif; }
+body { margin: 0; background: #f6f7fb; color: #222; }
+.nav { display:flex; gap:12px; align-items:center; padding:10px 16px; background:#fff; border-bottom:1px solid #eee; position:sticky; top:0; }
+.brand { font-weight:700; text-decoration:none; color:#111; }
+.spacer { flex:1; }
+.card { max-width: 880px; margin: 40px auto; background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 24px; box-shadow: 0 6px 24px rgba(0,0,0,.06); }
+.form { display:flex; flex-direction:column; gap:10px; }
+.grid2 { display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
+.label { font-size: 12px; color:#666; }
+input, select { padding:10px 12px; border:1px solid #ddd; border-radius:8px; outline:none; }
+input:focus, select:focus { border-color:#7c8cf8; box-shadow: 0 0 0 3px rgba(124,140,248,.2); }
+.btn { padding:10px 14px; border:0; border-radius:10px; background:#5865f2; color:#fff; cursor:pointer; font-weight:600; }
+.btn:disabled { opacity:.6; cursor:not-allowed; }
+.error { background:#ffe6e6; color:#b10000; padding:10px; border-radius:8px; border:1px solid #ffb3b3; }
+.success { background:#e8ffea; color:#006b1a; padding:10px; border-radius:8px; border:1px solid #b9f2c2; }
+.muted { color:#666; }
+a { color:#5865f2; }
